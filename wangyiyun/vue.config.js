@@ -1,15 +1,14 @@
-// const { defineConfig } = require('@vue/cli-service')
-const { VantResolver } = require('unplugin-vue-components/resolvers');
-const ComponentsPlugin = require('unplugin-vue-components/webpack');
-// module.exports = defineConfig({
-//   transpileDependencies: true,
-// })
+const path = require('path');
+const resolve = dir => path.join(__dirname, dir)
 module.exports = {
-  configureWebpack: {
-    plugins: [
-      ComponentsPlugin({
-        resolvers: [VantResolver()],
-      }),
-    ],
-  },
-};
+  chainWebpack: (config) => {
+    config.resolve.alias
+      .set('@', resolve('src'))
+      .set('pages', resolve('src/pages'))
+      .set('static', resolve('src/static'))
+      .set('index', resolve('src/pages/index'))
+      .set('video', resolve('src/pages/video'))
+      .set('personal', resolve('src/pages/personal'))
+      .set('search', resolve('src/pages/search'))
+  }
+}

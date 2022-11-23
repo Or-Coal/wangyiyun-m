@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2775903 */
+  src: url('//at.alicdn.com/t/font_2775903_sbc3hyfy2vc.woff2?t=1631348641944') format('woff2'),
+       url('//at.alicdn.com/t/font_2775903_sbc3hyfy2vc.woff?t=1631348641944') format('woff'),
+       url('//at.alicdn.com/t/font_2775903_sbc3hyfy2vc.ttf?t=1631348641944') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wangyiyunyinle:before {
+  content: "\e63c";
+}
+
+.icon-wangyiyunyinle-copy:before {
+  content: "\e8c6";
+}
+
+.icon-quxiao1:before {
+  content: "\e672";
+}
+
+.icon-yuanxunhuanbofang-copy:before {
+  content: "\e8c5";
+}
+
+.icon-icon-:before {
+  content: "\e648";
+}
+
+.icon-icon-1:before {
+  content: "\e649";
+}
+
+.icon-icon-2:before {
+  content: "\e64c";
+}
+
+.icon-zanting:before {
+  content: "\e629";
+}
+
+.icon-xihuan-xianxing:before {
+  content: "\e8c3";
+}
+
+.icon-xihuan-xianxing-copy:before {
+  content: "\e8c4";
+}
+
+.icon-fenxiang:before {
+  content: "\e612";
+}
+
+.icon-jia:before {
+  content: "\e86c";
+}
+
+.icon-gengduo:before {
+  content: "\e604";
+}
+
+.icon-gexinghua:before {
+  content: "\e611";
+}
+
+.icon-wodexiaoxi:before {
+  content: "\e646";
+}
+
+.icon-wodexiaoxi-copy:before {
+  content: "\e7c1";
+}
+
+.icon-zuo:before {
+  content: "\e630";
+}
+
+.icon-xiangshang:before {
+  content: "\e719";
+}
+
+.icon-you:before {
+  content: "\e621";
+}
+
+.icon-xia:before {
+  content: "\e603";
+}
+
+.icon-paixingbang:before {
+  content: "\e7bd";
+}
+
+.icon-sousuo:before {
+  content: "\e647";
+}
+
+.icon-tubiaozhizuomoban:before {
+  content: "\e610";
+}
+
+.icon-jjia-:before {
+  content: "\e6a9";
+}
+
+.icon-tuijian:before {
+  content: "\e627";
+}
+
+.icon-icon-test:before {
+  content: "\e60d";
+}
+
+.icon-caidan:before {
+  content: "\e60f";
+}
+
+.icon-haoyou:before {
+  content: "\e628";
+}
+
+.icon-diantai:before {
+  content: "\e636";
+}
+
+.icon-gedan:before {
+  content: "\e600";
+}
+
+.icon-bofang-copy:before {
+  content: "\e7be";
+}
+
+.icon-caidan-copy:before {
+  content: "\e7bf";
+}
+
+.icon-icon-test-copy:before {
+  content: "\e7c0";
+}

@@ -1,28 +1,19 @@
-<template>
-<div>
-  <!-- <SwiperView/> -->
-  <HomeView/>
-  <van-button type="primary" />
-</div>
-</template>
 <script>
-  // import SwiperView from '@/views/SwiperView.vue'
-  import HomeView from '@/views/HomeView.vue'
-  export default{
-    components:{
-      // SwiperView,
-      HomeView
-    }
-  }
+export default {
+  onLaunch: function () {},
+  onShow: function () {
+    uni.showShareMenu({
+      title: "Muni云音乐",
+    });
+  },
+  onHide: function () {},
+};
 </script>
-<style lang="less">
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-.icon{
-  width: .5rem;
-  height: .5rem;
+
+<style>
+@import "./static/iconfont/iconfont.css";
+/*每个页面公共css */
+page {
+  height: 100%;
 }
 </style>

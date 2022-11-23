@@ -1,4 +1,4 @@
-# wangyiyun
+# my-project
 
 ## Project setup
 ```
